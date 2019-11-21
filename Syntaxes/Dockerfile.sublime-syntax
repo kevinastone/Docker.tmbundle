@@ -5,7 +5,6 @@ name: Dockerfile
 file_extensions:
   - Dockerfile
   - dockerfile
-first_line_match: ^\s*(?i:(from(?!\s+\S+\s+import)|arg))\s+
 scope: source.dockerfile
 
 variables:
